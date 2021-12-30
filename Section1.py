@@ -12,11 +12,8 @@ print(your_name)
 print(a)
 print(b)
 print(c)
-a=10
-b=10
-c=10
-d=10
 a=b=c=d=10
+print(a,b,c,d)
 a,b,c,d=10,2.2,255,'python'
 print(a,b,c,d)
 
@@ -72,30 +69,29 @@ print(a)
 
 print("____________________________ String")
 
-your_name="This is the varaible of the string"
+your_name="This is the Varaible of the String"
 print(your_name)
-your_name1="""This the Variable of 
+your_name1="""This is the Variable of 
 Multiple type
- string"""
+ String"""
 print(your_name1)
-a="python"
+a="Python"
 b="3"
 c=a+b
 print(c)
-d="this is python 3"
-print("this outPut %s"%d)
+d="is Python3"
+print("The Output %s"%d)
 
 print("___________________________ Python Length Function Program")
 
 name="python"
 name1="this is python"
-tmp="{name} is creator of{name1}"
+tmp="{name} is creator of {name1}"
 t=tmp.format(name=name,name1=name1)
 length=len(name) # len is a keyword of python
 lengthname=len(name1)
 lengtht=len(t)
 print(length)
-print(name1)
+print(lengthname)
 print(lengtht)
-
 
