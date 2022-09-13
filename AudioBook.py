@@ -1,20 +1,20 @@
 import PyPDF2
-pdfReader = PyPDF2.PdfFileReader(open('file.pdf', 'rb'))  # select your pdf file in place of file.pdf
+pdfReader = PyPDF2.PdfFileReader(open('file.pdf', 'rb'))  # select your pdf file in place of file.pdf.
 
 import pyttsx3
 # Initialize the speaker.
 speaker = pyttsx3.init()
 rate = speaker.getProperty('rate')   
 print(rate)
-speaker.setProperty('rate', 200)    # 200 means 2x Speed
+speaker.setProperty('rate', 200)    # 200 means 2x Speed.
 
 voices = speaker.getProperty('voices')
 print(voices)
 
-#changing index, changes voices, 0 for male.
+# changing index, changes voices, 0 for male.
 #speaker.setProperty('voice', voices[0].id)
 
-#changing index, changes voices, 1 for female.
+# changing index, changes voices, 1 for female.
 speaker.setProperty('voice', voices[1].id)
 
 for page_num in range(pdfReader.numPages):
