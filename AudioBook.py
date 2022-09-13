@@ -6,7 +6,7 @@ import pyttsx3
 speaker = pyttsx3.init()
 rate = speaker.getProperty('rate')   
 print(rate)
-speaker.setProperty('rate', 200)
+speaker.setProperty('rate', 200)    # 200 means 2x Speed
 
 voices = speaker.getProperty('voices')
 print(voices)
