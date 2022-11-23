@@ -1,2 +1,2 @@
 # Basic-Python-Programs
-Basic Python Examples
+Python Beginner's Code Examples
